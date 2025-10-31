@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --back-primary: rgb(139, 255, 149);
+  --back-secondary: white;
+  --back-highlight: rgba(234, 75, 75, 0.856);
+}
