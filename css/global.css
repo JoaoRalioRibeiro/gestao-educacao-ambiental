@@ -5,7 +5,47 @@
 }
 
 :root {
-  --back-primary: rgb(139, 255, 149);
-  --back-secondary: white;
-  --back-highlight: rgba(234, 75, 75, 0.856);
+  --back-right: #2699E0;
+  --back-left: #46AB67;
+
+  --text-color: white;
+  --text-div: #133A3B;
+  --text-btn: #4CAF50;
+
+  --font: "Zain", "sans-serif"
+}
+
+body {
+  font: var(--font);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  padding: 1rem;
+
+  & img {
+    max-width: 10rem;
+  }
+
+  & h2 {
+    color: #1C3C43;
+  }
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
+  padding: 1rem;
+
+  & img {
+    max-width: 10rem;
+  }
 }

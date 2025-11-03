@@ -1,1 +1,26 @@
-@import url("../styles/global.css")
+@import url("../css/global.css");
+
+.banner {
+  background: linear-gradient(to right, var(--back-left), var(--back-right));
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  height: 55vh;
+  padding: 1rem;
+
+  color: white;
+
+  & .btn {
+    background-color: white;
+    
+    & a {
+      color: var(--text-btn);
+      text-decoration: none;
+      text-shadow: .5px .5px 10px;
+    }
+  }
+}
