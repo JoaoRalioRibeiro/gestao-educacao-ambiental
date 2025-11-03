@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Consulta de Eventos</title>
 
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/eventos.css">
 </head>
 <body>
   <header>
@@ -13,8 +13,38 @@
     <h2>Secretaria do Meio Ambiente e Urbanismo</h2>
   </header>
   <main>
-    <nav></nav>
-    <section></section>
+    <section>
+      <h2>Eventos</h2>
+      <ul>
+        <li><button>Criar</button></li>
+        <li><button>Editar</button></li>
+        <li><button>Excluir</button></li>
+      </ul>
+      <aside class="container-form">
+        <form hidden>
+          <h3>Adicionar Evento</h3>
+          <input type="text" id="evento-nome">
+          <input type="text" id="evento-org">
+          <textarea name="evento-desc" id="evento-desc"></textarea>
+          <input type="date">
+          <input type="file" name="evento-images" id="evento-images">
+        </form>
+      </aside>
+    </section>
+    <section class="container-eventos">
+      <div class="quadro">
+        <img src="assets/icons/add.svg" alt="">
+      </div>
+      <div class="quadro">
+        <h3>Título de evento</h3>
+        <h5>Organizadores</h5>
+        <p>Descrição de evento</p>
+        <p>Data</p>
+        <aside class="imagens">
+          imagens
+        </aside>
+      </div>
+    </section>
   </main>
   <footer>
     <img src="assets/images/meioAmbientePositivoVertical.png" alt="Logo da Prefeitura">
