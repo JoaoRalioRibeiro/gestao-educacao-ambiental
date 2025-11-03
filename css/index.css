@@ -13,14 +13,10 @@
   padding: 1rem;
 
   color: white;
-
-  & .btn {
+  & a {
     background-color: white;
-    
-    & a {
-      color: var(--text-btn);
-      text-decoration: none;
-      text-shadow: .5px .5px 10px;
-    }
+    border-radius: .5rem;
+    color: var(--text-btn);
+    text-decoration: none;
   }
 }
