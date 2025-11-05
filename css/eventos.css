@@ -1,17 +1,26 @@
 @import url("../css/global.css");
 
-.nav-eventos {
+.container-nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
-  color: var(--text-div);
+
+  padding: .5rem;
+  color: white;
+  background: linear-gradient(to right, var(--back-left), var(--back-right));
+
+  & h2 {
+    margin-top: 1rem;
+  }
 
   & ul {
     display: flex;
     flex-direction: row;
-    gap: 1.5rem;
+    gap: 2rem;
+    padding: 0;
+    margin-bottom: 1rem;
 
     & li {
       list-style-type: none;
