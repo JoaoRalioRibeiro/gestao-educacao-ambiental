@@ -30,14 +30,32 @@
           <li>Excluir</li>
       </aside>
       </ul>
-      <aside class="container-form">
-        <form hidden>
-          <h3>Adicionar Evento</h3>
-          <input type="text" id="evento-nome">
-          <input type="text" id="evento-org">
-          <textarea name="evento-desc" id="evento-desc"></textarea>
-          <input type="date">
-          <input type="file" name="evento-images" id="evento-images">
+      <aside class="container-form" >
+        <h3>Adicionar Evento</h3>
+        <form>
+          <ul>
+            <li>
+              <label for="evento-nome">Nome do evento: </label>
+              <input type="text" id="evento-nome">
+            </li>
+            <li>
+              <label for="evento-org">Organizadores: </label>
+              <input type="text" id="evento-org">
+            </li>
+            <li>
+              <textarea name="evento-desc" id="evento-desc" rows="3" cols="50" placeholder="Observação do evento"></textarea>
+            </li>
+            <li>
+              <label for="evento-date">Data: </label>
+              <input type="date" id="evento-date">
+            </li>
+            <li>
+              <input type="file" name="evento-images" id="evento-images">
+            </li>
+            <li>
+              <button type="submit">Criar</button>
+            </li>
+          </ul>
         </form>
       </aside>
     </section>
